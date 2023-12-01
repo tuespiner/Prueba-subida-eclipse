@@ -10,7 +10,7 @@ public class Practica3_3A {
 		
 		for(int i = 1; i<=input; i++) {
 			for(int x = 1; x<=input;x++) {
-				if (i==1) {
+				if (i==1||i==input) {
 					System.out.print("*");
 				}else if(i<input) {
 					
@@ -19,8 +19,6 @@ public class Practica3_3A {
 					}else {
 						System.out.print(" ");
 					}
-				}else {
-					System.out.print("*");
 				}
 				
 			}
